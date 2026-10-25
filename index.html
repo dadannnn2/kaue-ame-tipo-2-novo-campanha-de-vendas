@@ -304,12 +304,13 @@
     }
     .doar-cabeca p { font-size: 0.88rem; color: var(--tinta-media); line-height: 1.6; }
 
-    /* Estilo dos Botões de Valores Rápidos */
+    /* Grade de Botões com Destaque no R$ 50 */
     .grade-valores {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       gap: 8px;
       margin-bottom: 15px;
+      align-items: end;
     }
     .btn-valor {
       background: var(--folha);
@@ -322,6 +323,7 @@
       cursor: pointer;
       transition: all 0.2s ease;
       font-family: 'Figtree', sans-serif;
+      position: relative;
     }
     .btn-valor:hover, .btn-valor.selecionado {
       background: var(--terra);
@@ -329,6 +331,34 @@
       border-color: var(--terra-fundo);
       transform: translateY(-2px);
       box-shadow: 0 4px 10px rgba(227,131,47,0.3);
+    }
+
+    /* Destaque do Botão R$ 50 */
+    .btn-valor-caixa-destaque {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+    }
+    .tag-destaque {
+      background: var(--brasa);
+      color: white;
+      font-size: 0.55rem;
+      font-weight: 900;
+      padding: 2px 4px;
+      border-radius: 3px;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+      margin-bottom: 3px;
+      white-space: nowrap;
+      box-shadow: 0 2px 5px rgba(232,67,43,0.3);
+    }
+    .btn-destaque {
+      background: linear-gradient(135deg, #e8432b, #c7331d) !important;
+      color: white !important;
+      border: 2px solid #a62d1a !important;
+      box-shadow: 0 4px 12px rgba(232,67,43,0.38);
+      width: 100%;
     }
 
     .depoimentos { margin-bottom: 1.8rem; }
@@ -461,8 +491,9 @@
       .bloco p { font-size: 0.95rem; }
       .cta-fixo { min-width: 0; width: calc(100% - 1.6rem); max-width: calc(100% - 1.6rem); font-size: 0.84rem; padding: 0.9rem 0.85rem; }
       .faq-ar { margin-bottom: 5.5rem; }
-      .grade-valores { grid-template-columns: repeat(4, 1fr); gap: 6px; }
-      .btn-valor { font-size: 0.85rem; padding: 8px 2px; }
+      .grade-valores { grid-template-columns: repeat(4, 1fr); gap: 5px; }
+      .btn-valor { font-size: 0.82rem; padding: 8px 2px; }
+      .tag-destaque { font-size: 0.5rem; padding: 1px 3px; }
     }
 
     @media (max-width: 360px) {
@@ -549,11 +580,16 @@
         <p>Escolha um valor abaixo, escaneie o QR Code ou copie a chave Pix para salvar o Kauê.</p>
       </div>
       
-      <!-- Botões de Valores Rápidos -->
+      <!-- Grade de Valores com R$ 50 em Destaque -->
       <div class="grade-valores">
         <button class="btn-valor" onclick="selecionarValor('10')">R$ 10</button>
         <button class="btn-valor" onclick="selecionarValor('20')">R$ 20</button>
-        <button class="btn-valor" onclick="selecionarValor('50')">R$ 50</button>
+        
+        <div class="btn-valor-caixa-destaque">
+          <span class="tag-destaque">🔥 MAIS ESCOLHIDO</span>
+          <button class="btn-valor btn-destaque" onclick="selecionarValor('50')">R$ 50</button>
+        </div>
+
         <button class="btn-valor" onclick="selecionarValor('100')">R$ 100</button>
         <button class="btn-valor" onclick="selecionarValor('200')">R$ 200</button>
         <button class="btn-valor" onclick="selecionarValor('300')">R$ 300</button>
@@ -571,11 +607,8 @@
 
       <script>
       function selecionarValor(valor) {
-          // Remove a classe selecionado de todos os botões
           document.querySelectorAll('.btn-valor').forEach(btn => btn.classList.remove('selecionado'));
-          // Adiciona no botão clicado
           event.target.classList.add('selecionado');
-          // Copia direto a chave Pix avisando o valor escolhido
           copiarPix();
       }
 
