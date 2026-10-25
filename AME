@@ -6,8 +6,8 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>URGENTE: O Kauê tem poucos dias para devolver o respirador | Abrace uma Vida</title>
-  <meta name="description" content="Sem o BiPAP ele não consegue respirar. Ajude a comprar o respirador do Kauê antes que o tempo acabe.">
+  <title>URGENTE: O pequeno Kauê precisa da sua ajuda para vencer a AME Tipo 2 | Abrace uma Vida</title>
+  <meta name="description" content="Kauê enfrenta a AME Tipo 2 e precisa de suporte contínuo, fisioterapia e equipamentos para continuar respirando e lutando. Abrace uma Vida.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <link href="_ext/fonts.googleapis.com/assets/css2" rel="stylesheet">
@@ -171,7 +171,7 @@
     }
     .painel-onda {
       height: 100%;
-      width: 48.75%;
+      width: 21.55%;
       background: linear-gradient(90deg, var(--terra-clara), var(--terra), var(--brasa));
       border-radius: 3px;
     }
@@ -434,7 +434,7 @@
     }
   </style>
 </head>
-<body data-campanha="juntos-pelo-kaue-respirar-2026">
+<body data-campanha="juntos-pelo-kaue-ame-2026">
 
   <header class="cabecalho-selo">
    <img src="logo.jpg" alt="Abrace uma Vida" class="selo-figura">
@@ -443,60 +443,60 @@
   <main class="coluna">
 
     <div class="chamada">
-      <span class="chamada-tag">🚨 PRAZO CRÍTICO: ELE TEM POUCOS DIAS</span>
-      <h1>"Sem essa máquina meu filho não consegue respirar... Nós temos que devolver o aparelho na próxima semana!"</h1>
-      <p>O Kauê precisa de um respirador (BiPAP) para viver. O aparelho atual era emprestado e <strong>terá que ser devolvido</strong>. Se 10 mil pessoas doarem apenas R$ 10,00 via Pix hoje, conseguimos comprar a máquina própria dele!</p>
+      <span class="chamada-tag">🚨 URGENTE: A LUTA PELA VIDA DO KAUÊ CONTRA A AME TIPO 2</span>
+      <h1>"Sem esta máquina e o tratamento adequado, ele não pode respirar. Por favor, nos ajude a salvar o Kauê!"</h1>
+      <p>O pequeno Kauê enfrenta a <strong>AME Tipo 2 (Atrofia Muscular Espinhal)</strong> e precisa de suporte respiratório contínuo e medicamentos essenciais para continuar vivendo. <strong>A família precisa trocar os equipamentos e manter os cuidados urgentemente!</strong></p>
     </div>
 
     <figure class="capa">
-     <img src="capa-laura-respirar.jpg" alt="Kauê com a máscara de respiração" class="capa-img">
-      <figcaption class="capa-nota">Kauê hoje: Dependente absoluto do respirador para não contrair pneumonia grave...</figcaption>
+     <img src="capa-laura-respirar.jpg" alt="Kauê em tratamento contra AME Tipo 2" class="capa-img">
+      <figcaption class="capa-nota">Kauê hoje: Dependente de suporte respiratório e lutando diariamente contra a AME Tipo 2...</figcaption>
     </figure>
 
     <div class="painel-meta">
       <div class="painel-topo">
         <div>
           <div class="painel-cifra">R$ 21.546,12</div>
-          <div class="painel-sub">arrecadados de R$ 44.200,00</div>
+          <div class="painel-sub">arrecadados de R$ 100.000,00</div>
         </div>
-        <div class="painel-pct">48,75%<small>da meta</small></div>
+        <div class="painel-pct">21,55%<small>da meta</small></div>
       </div>
-      <div class="painel-trilho"><div class="painel-onda" style="width:48.75%"></div></div>
+      <div class="painel-trilho"><div class="painel-onda" style="width:21.55%"></div></div>
       <div class="painel-rodape">
-        <span><strong>412 pessoas</strong> já salvaram</span>
-        <span><strong>o aparelho</strong> precisa ser comprado</span>
+        <span><strong>412 pessoas</strong> já ajudaram</span>
+        <span><strong>o tratamento</strong> não pode parar</span>
       </div>
     </div>
 
-    <a href="#ajudar-kaue" class="cta-ar">DOE R$ 10,00 VIA PIX PARA O KAUÊ RESPIRAR 🙏</a>
-    <p class="selo-pix">PIX seguro · Toda doação vai para a compra da máquina de respiração</p>
+    <a href="#ajudar-kaue" class="cta-ar">DOAR VIA PIX PARA SALVAR O KAUÊ 🙏</a>
+    <p class="selo-pix">PIX seguro · 100% destinado aos equipamentos, respirador e insumos do Kauê</p>
 
     <hr class="divisa">
 
     <section class="bloco">
-      <h2 class="bloco-titulo">⚠️ Ele corre risco de pneumonias graves sem o respirador.</h2>
-      <p>O Kauê não tem força muscular suficiente para expelir o ar e oxigenar o corpo sozinho. Sem a máscara e o suporte do ventilador mecânico, os pulmões dele acumulam secreção e <strong>o risco de pegar uma nova pneumonia fatal é altíssimo</strong>.</p>
-      <p>O aparelho que está salvando a vida dele foi emprestado por um período limitado. O prazo está vencendo e a família precisa devolver na semana que vem. <strong>Eles não têm para onde ir se ficarem sem a máquina.</strong></p>
-      <div class="alerta-forte">⚠️ R$ 10,00 que você doar agora garante que o Kauê não fique sem ar quando a máquina atual for recolhida.</div>
+      <h2 class="bloco-titulo">⚠️ AME Tipo 2: Uma batalha diária pela respiração e pela vida.</h2>
+      <p>Diagnosticado com <strong>Atrofia Muscular Espinhal (AME) Tipo 2</strong>, o Kauê perdeu a força muscular gradualmente e depende de aparelhos respiratórios e suporte diário em casa para continuar respirando e lutando.</p>
+      <p>O equipamento que ele usa precisa ser substituído para evitar riscos gravíssimos de infecções e complicações respiratórias. Cada dia sem essa garantia é uma angústia imensa para a família.</p>
+      <div class="alerta-forte">⚠️ Cada CENTAVO arrecadado vai direto para garantir a nova máquina de respiração, os insumos e o tratamento contínuo do Kauê.</div>
     </section>
 
     <section class="bloco">
-      <h2 class="bloco-titulo">👨‍👩‍👧 "Você pode me ajudar com R$ 10,00?"</h2>
-      <p>Sozinhos, os pais do Kauê jamais conseguiriam comprar um equipamento desse valor a tempo. Mas se muitas pessoas doarem uma quantia pequena que não faz falta no orçamento — como 10 reais —, <strong>a vida dele estará salva.</strong></p>
-      <p>Não feche esta página sem ajudar. O valor de um café ou um lanche é a única esperança desse menino para continuar respirando.</p>
+      <h2 class="bloco-titulo">👨‍👩‍👧 Uma família que esgotou os recursos e pede socorro.</h2>
+      <p>Os pais do Kauê já fizeram o impossível, mas os custos com os equipamentos de suporte à vida e os cuidados médicos ultrapassam totalmente qualquer orçamento familiar.</p>
+      <p>Qualquer valor no Pix faz uma diferença gigantesca. <strong>Não existe contribuição pequena quando a respiração de um menino está em jogo.</strong></p>
     </section>
 
     <div class="fala-familia">
-      <span class="fala-abre">💚 O apelo do Kauê</span><br>
-      "Eu respiro com essa máquina e vou ter que devolver ela na semana que vem... Com qualquer valor você já vai estar me ajudando a comprar a minha. Muito obrigado!" 🙏
-      <cite>— Kauê</cite>
+      <span class="fala-abre">💚 Apelo desesperado da família</span><br>
+      O Kauê é a nossa vida. Sem a máquina de respiração e o suporte adequado, ele corre risco de vida. Por amor a Deus, nos ajudem a conseguir o novo equipamento para o nosso menino respirar em segurança. 🙏
+      <cite>— Família do Kauê</cite>
     </div>
 
     <section class="bloco">
-      <h2 class="bloco-titulo">Não desista dele. O Kauê só precisa da sua ajuda hoje!</h2>
-      <p>Não há dor maior para uma mãe e um pai do que olhar para o filho e saber que a vida dele depende de um aparelho que eles não têm como pagar.</p>
-      <p><strong>A sua atitude agora muda o destino dessa família. Faça a doação e garanta o ar do Kauê!</strong></p>
-      <div class="frase-forte">Faça uma boa ação hoje. Copie a chave Pix e envie R$ 10,00 para comprar a máquina do Kauê.</div>
+      <h2 class="bloco-titulo">Não ignore esta página. O Kauê precisa de uma chance agora!</h2>
+      <p>Por trás desta tela existe um menino corajoso lutando contra a AME Tipo 2 e uma família unida pelo amor, pedindo ajuda desesperadamente.</p>
+      <p><strong>Sozinhos eles não conseguem, mas com a união de centenas de pessoas solidárias, podemos garantir a nova máquina do Kauê!</strong></p>
+      <div class="frase-forte">Faça uma boa ação hoje. Doe qualquer valor via Pix e ajude a garantir a respiração e a vida do Kauê.</div>
     </section>
 
     <hr class="divisa">
@@ -504,7 +504,7 @@
     <section id="ajudar-kaue">
       <div class="doar-cabeca">
         <h2>Faça sua Doação Pix Instantânea</h2>
-        <p>Escaneie o QR Code abaixo ou clique no botão verde para copiar a chave Pix e salvar o Kauê.</p>
+        <p>Escaneie o QR Code abaixo ou clique no botão verde para copiar a chave Pix e ajudar o Kauê.</p>
       </div>
       
       <div style="text-align: center; margin: 25px 0;">
@@ -540,17 +540,17 @@
     <hr class="divisa">
 
     <section class="depoimentos">
-      <p class="depoimentos-titulo">Quem já ajudou o Kauê a comprar a máquina (3)</p>
+      <p class="depoimentos-titulo">Quem já ajudou o Kauê (3)</p>
 
       <div class="depoimento">
         <div class="depoimento-topo">
           <img src="comentario-taina.jpg" alt="" class="depoimento-foto" style="object-position: 48% 22%;">
           <div>
             <div class="depoimento-nome">Roberta Lima</div>
-            <div class="depoimento-tempo">há 12 minutos</div>
+            <div class="depoimento-tempo">há 22 minutos</div>
           </div>
         </div>
-        <p>Meu Deus, quando vi o vídeo dele pedindo R$ 10,00 pra não ter que devolver a máquina de respirar eu desabei de chorar. 😢 Mandei R$ 30,00 pelo Pix agora mesmo. Que Deus abençoe essa família e que consigam comprar logo o aparelho! ❤️🙏</p>
+        <p>Vi o vídeo e a história do Kauê e fiquei com o coração apertado. Uma criança tão pequena enfrentando a AME Tipo 2 e precisando de ajuda para respirar... 😢 Doei o que pude e espero de verdade que ele consiga a nova máquina. Que Deus abençoe essa família. ❤️🙏</p>
         <div class="depoimento-curtida"><span>❤️</span> 302</div>
       </div>
 
@@ -559,10 +559,10 @@
           <img src="comentario-henrique.jpg" alt="" class="depoimento-foto" style="object-position: 50% 18%;">
           <div>
             <div class="depoimento-nome">Flávio Martins</div>
-            <div class="depoimento-tempo">há 45 minutos</div>
+            <div class="depoimento-tempo">há 1 hora</div>
           </div>
         </div>
-        <p>Se 10 mil pessoas mandarem 10 reais a máquina tá comprada! Não custa nada pra gente e salva a vida desse guerreiro. Fiz o Pix e mandei no grupo do futebol também. Vambora ajudar gente! 👏</p>
+        <p>Ninguém precisa doar centenas de reais. Se cada um fizer um pouco, a máquina do Kauê fica garantida. Compartilhei no grupo da família e no do trabalho. Força pros pais. 🙏</p>
         <div class="depoimento-curtida"><span>❤️</span> 286</div>
       </div>
 
@@ -571,17 +571,17 @@
           <img src="comentario-luciana.jpg" alt="" class="depoimento-foto" style="object-position: 50% 10%;">
           <div>
             <div class="depoimento-nome">Simone Fátima</div>
-            <div class="depoimento-tempo">há 2 horas</div>
+            <div class="depoimento-tempo">há 3 horas</div>
           </div>
         </div>
-        <p>Sou mãe e não imagino o desespero de ter que devolver o aparelho de oxigênio do filho... Doei R$ 20,00 de coração. Que Nossa Senhora cubra o Kauê de bênçãos! ✨</p>
+        <p>Já fui mãe e sei o que é o desespero de ver um filho precisar de ajuda médica. Ler que a família precisa trocar o aparelho respiratório apertou meu coração. Fiz minha parte e pedi pras amigas também. ✨</p>
         <div class="depoimento-curtida"><span>❤️</span> 214</div>
       </div>
     </section>
 
     <div class="fecho-apelo">
-      <p><strong>Ninguém precisa doar muito para salvar o Kauê.</strong> Apenas R$ 10,00 seus junto com a doação de outras pessoas garante o aparelho.</p>
-      <p>Doe o valor que puder agora no Pix. Não deixe para depois, o prazo de devolução está terminando!</p>
+      <p><strong>Talvez ninguém consiga comprar esse equipamento sozinho.</strong> Mas muitas pessoas juntas conseguem garantir a respiração do Kauê.</p>
+      <p>Doe o valor que puder agora. Não permita que o Kauê e sua família fiquem sem apoio. Cada ajuda conta!</p>
       <p style="margin-bottom:0;font-size:0.8rem;opacity:0.7">Comentários encerrados para esta publicação</p>
     </div>
 
@@ -590,20 +590,24 @@
     <section class="faq-ar">
       <h3>Perguntas frequentes</h3>
       <div class="faq-linha">
-        <div class="faq-pergunta">Como faço para mandar minha doação? <span class="faq-sinal">+</span></div>
-        <div class="faq-resposta">Clique no botão verde para copiar a chave Pix (e-mail) ou escaneie o QR Code no seu banco. Cole na opção "Pix Copia e Cola" ou "Chave Pix" do seu aplicativo de banco. É instantâneo e seguro.</div>
+        <div class="faq-pergunta">Como faço para contribuir? <span class="faq-sinal">+</span></div>
+        <div class="faq-resposta">Escolha um valor, clique no botão para copiar a chave Pix ou escaneie o QR Code com o app do seu banco. É rápido, seguro e leva menos de 1 minuto.</div>
       </div>
       <div class="faq-linha">
-        <div class="faq-pergunta">Por que ele precisa da máquina urgente? <span class="faq-sinal">+</span></div>
-        <div class="faq-resposta">O Kauê utiliza um ventilador de suporte respiratório emprestado que precisa ser devolvido em breve. Sem essa máquina, ele não consegue respirar adequadamente e corre sério risco de pneumonia grave.</div>
+        <div class="faq-pergunta">Qual é a doença do Kauê? <span class="faq-sinal">+</span></div>
+        <div class="faq-resposta">O Kauê foi diagnosticado com AME Tipo 2 (Atrofia Muscular Espinhal), uma condição degenerativa que afeta a força muscular e a capacidade respiratória, exigindo suporte de aparelhos e acompanhamento constante.</div>
       </div>
       <div class="faq-linha">
-        <div class="faq-pergunta">Posso doar menos de 10 reais? <span class="faq-sinal">+</span></div>
-        <div class="faq-resposta">Sim! Qualquer valor ajuda (R$ 5, R$ 10, R$ 20). O importante é a união de todos para bater a meta da máquina.</div>
+        <div class="faq-pergunta">A doação via Pix é segura? <span class="faq-sinal">+</span></div>
+        <div class="faq-resposta">Sim, totalmente segura e direta para a chave oficial da família responsável pelo tratamento e equipamentos do Kauê.</div>
       </div>
       <div class="faq-linha">
-        <div class="faq-pergunta">A doação chega direto para a família? <span class="faq-sinal">+</span></div>
-        <div class="faq-resposta">Sim. O valor arrecadado é transferido para a compra direta do aparelho de respiração e insumos do Kauê.</div>
+        <div class="faq-pergunta">Não posso doar agora, posso ajudar de outra forma? <span class="faq-sinal">+</span></div>
+        <div class="faq-resposta">Sim! Compartilhe o link deste site com amigos, familiares e em grupos de WhatsApp. Isso ajuda muito a alcançar mais doadores.</div>
+      </div>
+      <div class="faq-linha">
+        <div class="faq-pergunta">O dinheiro chega mesmo para a máquina e o tratamento? <span class="faq-sinal">+</span></div>
+        <div class="faq-resposta">Sim. Todos os recursos arrecadados são integralmente revertidos para a aquisição do novo aparelho respiratório, insumos e custos médicos do Kauê.</div>
       </div>
     </section>
 
@@ -611,11 +615,11 @@
 
   <footer class="rodape-jpv">
     <strong>Abrace uma Vida</strong> · Unidos por quem precisa de uma chance.<br>
-    Campanha de arrecadação emergencial para a máquina do Kauê<br>
+    Organizado em parceria com a família do Kauê<br>
     © 2026 — Todos os direitos reservados
   </footer>
 
-  <a href="#ajudar-kaue" class="cta-fixo">DOE R$ 10,00 VIA PIX AGORA PARA SALVAR O KAUÊ 🙏</a>
+  <a href="#ajudar-kaue" class="cta-fixo">DOAR VIA PIX AGORA PARA SALVAR O KAUÊ 🙏</a>
 
   <script>
     document.querySelectorAll('.faq-pergunta').forEach(function (item) {
