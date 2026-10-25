@@ -259,19 +259,6 @@
       margin: 0.7rem 0;
     }
 
-    .frase-forte {
-      text-align: center;
-      font-family: 'Figtree', system-ui, sans-serif;
-      font-size: 1.12rem;
-      font-weight: 700;
-      color: var(--cacau);
-      background: linear-gradient(135deg, var(--creme), var(--brasa-veu));
-      border-radius: 8px;
-      padding: 1.1rem 1.15rem;
-      margin: 1.15rem 0;
-      line-height: 1.5;
-    }
-
     .fala-familia {
       background: var(--creme);
       border: 1px solid var(--linha);
@@ -304,7 +291,7 @@
     }
     .doar-cabeca p { font-size: 0.88rem; color: var(--tinta-media); line-height: 1.6; }
 
-    /* Grade de Botões com Destaque no R$ 50 */
+    /* Grade de Botões e Destaques */
     .grade-valores {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -324,6 +311,7 @@
       transition: all 0.2s ease;
       font-family: 'Figtree', sans-serif;
       position: relative;
+      width: 100%;
     }
     .btn-valor:hover, .btn-valor.selecionado {
       background: var(--terra);
@@ -333,7 +321,6 @@
       box-shadow: 0 4px 10px rgba(227,131,47,0.3);
     }
 
-    /* Destaque do Botão R$ 50 */
     .btn-valor-caixa-destaque {
       display: flex;
       flex-direction: column;
@@ -358,7 +345,6 @@
       color: white !important;
       border: 2px solid #a62d1a !important;
       box-shadow: 0 4px 12px rgba(232,67,43,0.38);
-      width: 100%;
     }
 
     .depoimentos { margin-bottom: 1.8rem; }
@@ -379,7 +365,6 @@
       flex-shrink: 0;
       object-fit: cover;
       border: 2px solid var(--terra);
-      filter: contrast(1.1) saturate(0.86) brightness(1.05);
     }
     .depoimento-nome { font-size: 0.86rem; font-weight: 800; color: var(--tinta); line-height: 1.2; }
     .depoimento-tempo { font-size: 0.72rem; color: var(--tinta-media); font-weight: 600; }
@@ -391,51 +376,6 @@
       font-size: 0.77rem;
       color: var(--tinta-media);
     }
-
-    .fecho-apelo {
-      background: var(--cacau);
-      color: rgba(255,255,255,0.92);
-      border-radius: 8px;
-      padding: 1.15rem 1.2rem;
-      text-align: center;
-      margin-bottom: 1.8rem;
-    }
-    .fecho-apelo p { font-size: 0.88rem; line-height: 1.65; margin-bottom: 0.55rem; }
-    .fecho-apelo strong { color: var(--terra-clara); }
-
-    .faq-ar { margin-bottom: 5rem; }
-    .faq-ar h3 {
-      font-size: 0.74rem;
-      font-weight: 800;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: var(--tinta-media);
-      margin-bottom: 1rem;
-      font-family: 'Figtree', sans-serif;
-    }
-    .faq-linha { border-bottom: 1px solid var(--linha); }
-    .faq-pergunta {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0.88rem 0;
-      cursor: pointer;
-      gap: 0.5rem;
-      font-size: 0.9rem;
-      font-weight: 800;
-      user-select: none;
-    }
-    .faq-sinal { color: var(--brasa); font-size: 1.2rem; transition: transform 0.25s; flex-shrink: 0; }
-    .faq-pergunta.expandida .faq-sinal { transform: rotate(45deg); }
-    .faq-resposta {
-      max-height: 0;
-      overflow: hidden;
-      font-size: 0.86rem;
-      color: var(--tinta-media);
-      line-height: 1.75;
-      transition: max-height 0.3s ease, padding 0.3s;
-    }
-    .faq-resposta.expandida { max-height: 380px; padding-bottom: 1rem; }
 
     .rodape-jpv {
       background: linear-gradient(135deg, var(--cacau-noite), var(--terra-fundo));
@@ -470,40 +410,12 @@
       z-index: 99;
       box-shadow: 0 8px 24px rgba(199,51,29,0.48);
       font-family: 'Figtree', sans-serif;
-      transition: filter 0.2s;
     }
-    .cta-fixo:hover { filter: brightness(1.05); }
 
     @media (max-width: 600px) {
-      .selo-figura { height: 78px; }
-      .capa-img {
-        aspect-ratio: 3 / 4;
-        max-height: min(84vh, 620px);
-        object-position: center 16%;
-        border-radius: 6px 6px 0 0;
-      }
-      .chamada { padding: 1.2rem 0 0.85rem; }
-      .coluna { padding: 0 0.9rem; }
-      .painel-meta { padding: 1.1rem 0.95rem 0.95rem; }
-      .painel-cifra, .painel-pct { font-size: 1.68rem; }
-      .cta-ar { font-size: 0.92rem; padding: 0.95rem 0.9rem; max-width: 100%; }
-      .bloco-titulo { font-size: 1.05rem; }
-      .bloco p { font-size: 0.95rem; }
-      .cta-fixo { min-width: 0; width: calc(100% - 1.6rem); max-width: calc(100% - 1.6rem); font-size: 0.84rem; padding: 0.9rem 0.85rem; }
-      .faq-ar { margin-bottom: 5.5rem; }
       .grade-valores { grid-template-columns: repeat(4, 1fr); gap: 5px; }
       .btn-valor { font-size: 0.82rem; padding: 8px 2px; }
       .tag-destaque { font-size: 0.5rem; padding: 1px 3px; }
-    }
-
-    @media (max-width: 360px) {
-      .selo-figura { height: 70px; }
-      .chamada h1 { font-size: 1.26rem; }
-      .grade-valores { grid-template-columns: repeat(4, 1fr); }
-    }
-
-    @media (min-width: 560px) {
-      .capa-img { max-height: 680px; }
     }
   </style>
 </head>
@@ -550,11 +462,6 @@
       <h2 class="bloco-titulo">⚠️ Uma luta diária pela respiração e pela vida.</h2>
       <p>A Laura depende de oxigênio e acompanhamento constante. Os custos com insumos e medicamentos são altos e a família precisa de apoio imediato para não faltar nada.</p>
       <div class="alerta-forte">⚠️ Qualquer valor faz toda a diferença para garantir que a Laura tenha o suporte necessário todos os dias.</div>
-    </section>
-
-    <section class="bloco">
-      <h2 class="bloco-titulo">👨‍👩‍👧 "Contamos com o seu apoio para ver ela sorrir..."</h2>
-      <p>O apoio de cada coração solidário é o que dá forças para a família continuar essa jornada com esperança.</p>
     </section>
 
     <hr class="divisa">
