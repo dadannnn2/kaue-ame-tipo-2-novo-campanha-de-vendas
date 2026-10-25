@@ -304,6 +304,33 @@
     }
     .doar-cabeca p { font-size: 0.88rem; color: var(--tinta-media); line-height: 1.6; }
 
+    /* Estilo dos Botões de Valores Rápidos */
+    .grade-valores {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+      margin-bottom: 15px;
+    }
+    .btn-valor {
+      background: var(--folha);
+      border: 2px solid var(--terra);
+      color: var(--cacau);
+      font-size: 0.95rem;
+      font-weight: 800;
+      padding: 10px 5px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      font-family: 'Figtree', sans-serif;
+    }
+    .btn-valor:hover, .btn-valor.selecionado {
+      background: var(--terra);
+      color: white;
+      border-color: var(--terra-fundo);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 10px rgba(227,131,47,0.3);
+    }
+
     .depoimentos { margin-bottom: 1.8rem; }
     .depoimentos-titulo {
       font-size: 0.8rem;
@@ -434,11 +461,14 @@
       .bloco p { font-size: 0.95rem; }
       .cta-fixo { min-width: 0; width: calc(100% - 1.6rem); max-width: calc(100% - 1.6rem); font-size: 0.84rem; padding: 0.9rem 0.85rem; }
       .faq-ar { margin-bottom: 5.5rem; }
+      .grade-valores { grid-template-columns: repeat(4, 1fr); gap: 6px; }
+      .btn-valor { font-size: 0.85rem; padding: 8px 2px; }
     }
 
     @media (max-width: 360px) {
       .selo-figura { height: 70px; }
       .chamada h1 { font-size: 1.26rem; }
+      .grade-valores { grid-template-columns: repeat(4, 1fr); }
     }
 
     @media (min-width: 560px) {
@@ -516,10 +546,22 @@
     <section id="ajudar-kaue">
       <div class="doar-cabeca">
         <h2>Faça sua Doação Pix Instantânea</h2>
-        <p>Escaneie o QR Code abaixo ou clique no botão verde para copiar a chave Pix e salvar o Kauê.</p>
+        <p>Escolha um valor abaixo, escaneie o QR Code ou copie a chave Pix para salvar o Kauê.</p>
       </div>
       
-      <div style="text-align: center; margin: 25px 0;">
+      <!-- Botões de Valores Rápidos -->
+      <div class="grade-valores">
+        <button class="btn-valor" onclick="selecionarValor('10')">R$ 10</button>
+        <button class="btn-valor" onclick="selecionarValor('20')">R$ 20</button>
+        <button class="btn-valor" onclick="selecionarValor('50')">R$ 50</button>
+        <button class="btn-valor" onclick="selecionarValor('100')">R$ 100</button>
+        <button class="btn-valor" onclick="selecionarValor('200')">R$ 200</button>
+        <button class="btn-valor" onclick="selecionarValor('300')">R$ 300</button>
+        <button class="btn-valor" onclick="selecionarValor('500')">R$ 500</button>
+        <button class="btn-valor" onclick="selecionarValor('1000')">R$ 1.000</button>
+      </div>
+
+      <div style="text-align: center; margin: 20px 0;">
           <img src="flow.jpg" alt="QR Code Pix" style="max-width: 450px; width: 100%; height: auto; border-radius: 12px; display: block; margin: 0 auto 15px auto; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
 
           <button onclick="copiarPix()" id="btn-copiar-pix" style="background-color: #25d366; color: white; border: none; padding: 15px 30px; font-size: 19px; font-weight: bold; border-radius: 8px; cursor: pointer; transition: 0.2s; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
@@ -528,6 +570,15 @@
       </div>
 
       <script>
+      function selecionarValor(valor) {
+          // Remove a classe selecionado de todos os botões
+          document.querySelectorAll('.btn-valor').forEach(btn => btn.classList.remove('selecionado'));
+          // Adiciona no botão clicado
+          event.target.classList.add('selecionado');
+          // Copia direto a chave Pix avisando o valor escolhido
+          copiarPix();
+      }
+
       function copiarPix() {
           const chavePix = "juntospelokaue@gmail.com"; 
           
@@ -600,7 +651,7 @@
       <h3>Perguntas frequentes</h3>
       <div class="faq-linha">
         <div class="faq-pergunta">Como faço para mandar minha doação? <span class="faq-sinal">+</span></div>
-        <div class="faq-resposta">Clique no botão verde para copiar a chave Pix (e-mail) ou escaneie o QR Code no seu banco. Cole na opção "Chave Pix" do seu aplicativo. É instantâneo e seguro.</div>
+        <div class="faq-resposta">Clique nos botões de valores ou no botão verde para copiar a chave Pix (e-mail) e escaneie o QR Code no seu banco. É instantâneo e seguro.</div>
       </div>
       <div class="faq-linha">
         <div class="faq-pergunta">Por que o caso dele é urgente? <span class="faq-sinal">+</span></div>
