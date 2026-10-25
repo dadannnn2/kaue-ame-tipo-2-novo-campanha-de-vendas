@@ -20,6 +20,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>URGENTE: O pequeno Kauê precisa da sua ajuda para vencer a AME Tipo 2 | Abrace uma Vida</title>
   <meta name="description" content="Kauê enfrenta a AME Tipo 2 e precisa de suporte contínuo, fisioterapia e equipamentos para continuar respirando e lutando. Abrace uma Vida.">
+  
+  <!-- Preload da imagem de capa em JPG otimizada -->
+  <link rel="preload" as="image" href="capa-kaue-ame.jpg" fetchpriority="high">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <link href="_ext/fonts.googleapis.com/assets/css2" rel="stylesheet">
@@ -551,7 +555,7 @@
     </div>
 
     <figure class="capa">
-     <img src="capa-laura-respirar.jpg" alt="Kauê em tratamento contra AME Tipo 2" class="capa-img">
+     <img src="capa-kaue-ame.jpg" alt="Kauê em tratamento contra AME Tipo 2" class="capa-img" fetchpriority="high" width="600" height="800">
       <figcaption class="capa-nota">Kauê hoje: Dependente de suporte respiratório e lutando diariamente contra a AME Tipo 2...</figcaption>
     </figure>
 
@@ -628,7 +632,7 @@
      
       <div style="text-align: center; margin: 25px 0;">
           <!-- Imagem do QR Code -->
-          <img src="flow.jpg" alt="QR Code Pix" style="max-width: 450px; width: 100%; height: auto; border-radius: 12px; display: block; margin: 0 auto 15px auto; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+          <img src="flow.jpg" alt="QR Code Pix" width="400" height="400" loading="lazy" style="max-width: 450px; width: 100%; height: auto; border-radius: 12px; display: block; margin: 0 auto 15px auto; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
 
           <!-- Botão de Copiar Chave Pix -->
           <button onclick="copiarPix()" id="btn-copiar-pix" style="background-color: #25d366; color: white; border: none; padding: 15px 30px; font-size: 19px; font-weight: bold; border-radius: 8px; cursor: pointer; transition: 0.2s; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
@@ -669,7 +673,7 @@
 
       <div class="depoimento">
         <div class="depoimento-topo">
-          <img src="comentario-taina.jpg" alt="" class="depoimento-foto" style="object-position: 48% 22%;">
+          <img src="comentario-taina.jpg" alt="" class="depoimento-foto" width="46" height="46" loading="lazy" style="object-position: 48% 22%;">
           <div>
             <div class="depoimento-nome">Roberta Lima</div>
             <div class="depoimento-tempo">há 22 minutos</div>
@@ -681,7 +685,7 @@
 
       <div class="depoimento">
         <div class="depoimento-topo">
-          <img src="comentario-henrique.jpg" alt="" class="depoimento-foto" style="object-position: 50% 18%;">
+          <img src="comentario-henrique.jpg" alt="" class="depoimento-foto" width="46" height="46" loading="lazy" style="object-position: 50% 18%;">
           <div>
             <div class="depoimento-nome">Flávio Martins</div>
             <div class="depoimento-tempo">há 1 hora</div>
@@ -693,7 +697,7 @@
 
       <div class="depoimento">
         <div class="depoimento-topo">
-          <img src="comentario-luciana.jpg" alt="" class="depoimento-foto" style="object-position: 50% 10%;">
+          <img src="comentario-luciana.jpg" alt="" class="depoimento-foto" width="46" height="46" loading="lazy" style="object-position: 50% 10%;">
           <div>
             <div class="depoimento-nome">Simone Fátima</div>
             <div class="depoimento-tempo">há 3 horas</div>
